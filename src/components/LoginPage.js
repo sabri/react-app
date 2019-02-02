@@ -1,12 +1,14 @@
 import React from "react";
 import LoginForm from "../components/Forms/LoginForm"
 class LoginPage extends React.Component{
- 
+ submit = (data) =>{
+     console.log(data);
+ }
 render(){
     return (
         <div>
-            <h1>hellooooooo</h1>
-<LoginForm/>
+            <h1>Login Page</h1>
+<LoginForm submit = {this.submit}/>
         </div> 
     );
 }

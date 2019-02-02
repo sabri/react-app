@@ -20,7 +20,7 @@
     "validator": "^10.11.0"
   },
   "scripts": {
-    "precommit": "lint-staged",
+    "pre2commit": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
